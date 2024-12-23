@@ -104,7 +104,7 @@
 
         <div class="row gy-4">
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/lapangan2.jpg" style="height: 590px; width: 800px; background-size: cover;" class="img-fluid mb-4" alt="">
+            <img src="images/basket1.jpeg" style="height: 590px; width: 800px; background-size: cover;" class="img-fluid mb-4" alt="">
             {{-- <div class="book-a-table">
               <h3>Book a Table</h3>
               <p>+1 5589 55488 55</p>
@@ -126,7 +126,7 @@
               
 
               <div class="position-relative mt-4">
-                <img src="images/lapangan3.jpg" style="height: 290px; width: 400px; background-size: cover;" class="img-fluid" alt="">
+                <img src="images/basket2.jpeg" style="height: 290px; width: 400px; background-size: cover;" class="img-fluid" alt="">
                 {{-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> --}}
               </div>
             </div>
@@ -141,7 +141,7 @@
     <!-- Stats Section -->
     <section id="stats" class="stats section dark-background">
 
-      <img src="images/lapangan4.jpg" alt="" data-aos="fade-in">
+      <img src="images/basket3.jpeg" alt="" data-aos="fade-in">
 
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
 
