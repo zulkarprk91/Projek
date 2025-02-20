@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Booking | Home</title>
+  <title>PARAKO</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -28,13 +28,6 @@
   <!-- Main CSS File -->
   <link href="assets_landing/css/main.css" rel="stylesheet">
 
-  <!-- ====================================================
-  * Template Name: Zulkarnain
-  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -45,7 +38,7 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets_landing/img/logo.png" alt=""> -->
-        <h1 class="sitename">Booking</h1>
+        <h1 class="sitename">PASEWARAN</h1>
         <span>.</span>
       </a>
 
@@ -63,7 +56,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
       <div>
-      <a class="btn-getstarted" href="/register">Register</a>
+     
       <a class="btn-getstarted" href="/login">Login</a>
     </div>
     </div>
@@ -77,7 +70,7 @@
       <div class="container">
         <div class="row gy-4 justify-content-center justify-content-lg-between">
           <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up">Pesan Lapangan Basket<br>Favoritmu Sekarang Juga!</h1>
+            <h1 data-aos="fade-up">Data Pasewaran<br>PT</h1>
             <p data-aos="fade-up" data-aos-delay="100">Nikmati pengalaman bermain basket dengan mudah dan cepat. Pilih jadwal sesuai keinginan!</p>
             <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
               <a href="/login" class="btn-get-started">Booking Sekarang</a>
@@ -96,8 +89,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Tentang Kami<br></h2>
-        <p><span>Pelajari lebih banyak</span> <span class="description-title">Tentang Kami</span></p>
+        <h2>Tentang Saya<br></h2>
+        <p><span>NAMA SAYA  </span> <span class="description-title">DZAKY</span></p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -105,10 +98,6 @@
         <div class="row gy-4">
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
             <img src="images/basket1.jpeg" style="height: 590px; width: 800px; background-size: cover;" class="img-fluid mb-4" alt="">
-            {{-- <div class="book-a-table">
-              <h3>Book a Table</h3>
-              <p>+1 5589 55488 55</p>
-            </div> --}}
           </div>
           <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
             <div class="content ps-0 ps-lg-5">
