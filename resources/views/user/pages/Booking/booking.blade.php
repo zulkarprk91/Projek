@@ -35,7 +35,7 @@
                     
                     <div id="id_user_section" style="display: none;">
                         <label for="defaultFormControlInput" class="form-label">ID User</label>
-                        <input type="text" class="form-control mb-2" readonly style="width: 75%;" id="defaultFormControlInput" placeholder="ID User" value="{{ $USER->id }}" name="id_user" aria-describedby="defaultFormControlHelp" />
+                        <input type="text" class="form-control mb-2" readonly style="width: 75%;" id="defaultFormControlInput" placeholder="ID User" value="{{ $user->id }}" name="id_user" aria-describedby="defaultFormControlHelp" />
                         {{-- <div class="d-flex gap-3">
                             <button type="button" class="btn btn-primary" style="width: 25%;">Cari User</button>
                         </div> --}}
@@ -187,7 +187,7 @@
 <script type="text/javascript">
     document.getElementById('pay-button').onclick = function(){
       // SnapToken acquired from previous step
-      snap.pay('{{ $transaction->snap_token }}', {
+      snap.pay('{{ optional($transaction)->snap_token }}', {
         // Optional
         onSuccess: function(result){
           /* You may add your own js here, this is just example */ document.getElementById('result-json').innerHTML += JSON.stringify(result, null, 2);

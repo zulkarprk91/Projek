@@ -4,7 +4,7 @@ use App\Http\Controllers\adminController;
 use App\Http\Controllers\galleryController;
 use App\Http\Controllers\jadwalController;
 use App\Http\Controllers\lapanganController;
-use App\Http\Controllers\Login_RegisterController;
+use App\Http\Controllers\homeController;
 use App\Http\Controllers\SocialliteController;
 use App\Http\Controllers\transaksiController;
 use App\Http\Controllers\ulasanController;
@@ -12,16 +12,12 @@ use App\Http\Controllers\userController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', [Login_RegisterController::class, "show_landing"])->name("landing");
-Route::get('/halo', function () {
-    return view('halo');
-});
-Route::get('/login', [Login_RegisterController::class, "show_login"])->name("login");
-Route::get('/register', [Login_RegisterController::class, "show_register"])->name("register");
-Route::post('/registerakun', [Login_RegisterController::class, "register"])->name("registerakun");
-Route::get('/logout', [Login_RegisterController::class, "logout"]);
-Route::post('/loginakun', [Login_RegisterController::class, "loginakun"])->name('loginakun');
-Route::post('/login/auth', [Login_RegisterController::class, 'login'])->name('auth');
+Route::get('/', [homeController::class, "show_landing"])->name("landing");
+
+Route::get('/login', [homeController::class, "show_login"])->name("login");
+Route::get('/logout', [homeController::class, "logout"]);
+Route::post('/loginakun', [homeController::class, "loginakun"])->name('loginakun');
+Route::post('/login/auth', [homeController::class, 'login'])->name('auth');
 
 Route::prefix('admin')->middleware("admin")->group(function () {
     Route::get('/dashboard', [adminController::class, 'show_dashboard'])->name('dashboard');

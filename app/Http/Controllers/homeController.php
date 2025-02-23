@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Laravel\Sanctum\HasApiTokens;
 
-class Login_RegisterController extends Controller
+class homeController extends Controller
 {
 
     public function __construct()
@@ -51,7 +51,7 @@ class Login_RegisterController extends Controller
         $ulasan = ulasanModel::all();
         $lapangan = lapanganModel::all();
         $gallery = galleryModel::all();
-        return view('login_register.landing', [
+        return view('home.tampilan', [
             'gallery' => $gallery,
             'lapangan' => $lapangan,
             'ulasan' => $ulasan,
@@ -60,13 +60,9 @@ class Login_RegisterController extends Controller
 
     public function show_login()
     {
-        return view('login_register.login');
+        return view('home.login'); // menuju tampilan login
     }
-    public function show_register()
-    {
-        return view('login_register.register');
-    }
-
+    
     public function loginakun(Request $request)
     {
 
